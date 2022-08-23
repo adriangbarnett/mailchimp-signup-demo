@@ -1,0 +1,19 @@
+POST http://localhost:3000/mailchimp-signup
+Content-Type: application/json
+
+{
+    "update_existing": true,
+    "email": "testuser30@mail.com",
+    "status": "subscribed",
+    "firstName": "firstName10",
+    "lastName": "lastName10",
+    "birthday": "12/31",
+    "address": {
+        "addr1": "123 Happy street",
+        "city": "Salisbury",
+        "state": "Wiltshire",
+        "zip": "SPX 3XX"
+    },
+    "ip_signup": "217.0.0.0",
+    "tags": ["tagOne", "tagTwo"]
+}
